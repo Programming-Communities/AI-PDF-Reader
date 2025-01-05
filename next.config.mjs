@@ -1,4 +1,14 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    reactStrictMode: true, // Optional: Example config option
+  };
+  
+  export default nextConfig;  // Use export default for ES Modules
+  
+  
 
-export default nextConfig;
+
+// /** @type {import('next').NextConfig} */
+// const nextConfig = {};
+
+// export default nextConfig;
