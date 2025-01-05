@@ -24,7 +24,7 @@ export default function Home() {
       </Head>
       <div>
         <h1>Programming Communities</h1>
-        <Button>Click me</Button>
+        <Button>Subcribe</Button>
         {/* Add any images or additional content here */}
       </div>
     </>
