@@ -2,6 +2,7 @@ import { metadata } from './seo/metadata'; // Import metadata from seo folder
 import Head from 'next/head';
 import { Button } from "@/components/ui/button"; // Import your Button component
 import Image from "next/image"; // Import Image for usage if needed
+import { UserButton } from '@clerk/nextjs';
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <div>
         <h1>Programming Communities</h1>
         <Button>Subcribe</Button>
+        <UserButton />
         {/* Add any images or additional content here */}
       </div>
     </>
