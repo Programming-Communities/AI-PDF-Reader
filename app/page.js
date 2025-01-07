@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button"; // Import your Button component
 import Image from "next/image"; // Import Image for usage if needed
 import { UserButton } from '@clerk/nextjs';
 
+
 export default function Home() {
   return (
     <>
@@ -28,6 +29,7 @@ export default function Home() {
         <Button>Subcribe</Button>
         <UserButton />
         {/* Add any images or additional content here */}
+     
       </div>
     </>
   );
